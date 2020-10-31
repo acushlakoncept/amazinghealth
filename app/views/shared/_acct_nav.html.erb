@@ -1,0 +1,17 @@
+<% if user_masquerade? %>
+  <div class="alert alert-warning text-center">
+    You're logged in as <b><%= current_user.name %> (<%= current_user.email %>)</b>
+    <%= link_to back_masquerade_path(current_user) do %><%= icon("fas", "times") %> Logout <% end %>
+  </div>
+<% end %>
+
+<nav class="navbar navbar-expand-md navbar-light bg-white h-150">
+  <div class="container">
+    <%= link_to '<i class="fas fa-long-arrow-alt-left"></i>'.html_safe, root_path, class: "navbar-brand" %>
+    <%= link_to 'Sign up', root_path, class: "navbar-brand" %>
+    <%= link_to 'Sign up', root_path, class: "navbar-brand text-white " %>
+    
+    
+    
+  </div>
+</nav>
