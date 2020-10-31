@@ -18,6 +18,8 @@
 
 html, body {
   background-color: #F7F7F7;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 // Masquerade alert shouldn't have a bottom margin
 body > .alert {
@@ -30,4 +32,32 @@ body > .alert {
 
 .text-white {
   color: #fff;
+}
+
+.mid-nav-items {
+  margin: 0 auto;
+}
+
+.header {
+  padding: 4rem 3rem;
+  // background: rgba(0,0,0, 0.5),  image-url("health.jpg");
+  // background-image: url(asset-path('health.jpg'));
+  background: image-url("health.jpg");
+  background-size:cover;
+  height: 80vh;
+  position: relative;
+  color: #fff;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.7);
+  }
+
+  .hero-1-title {
+    // text-transform: uppercase;
+    font-weight: 900;
+  }
 }
