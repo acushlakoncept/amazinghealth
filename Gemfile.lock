@@ -126,6 +126,7 @@ GEM
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     hashie (4.1.0)
+    hirb (0.7.3)
     http (4.4.1)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -334,6 +335,7 @@ DEPENDENCIES
   devise_masquerade (~> 1.2)
   font-awesome-sass (~> 5.13)
   friendly_id (~> 5.3)
+  hirb
   image_processing
   jbuilder (~> 2.7)
   listen (~> 3.2)
