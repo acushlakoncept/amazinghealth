@@ -33,7 +33,8 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       # t.datetime :locked_at
 
       t.string :first_name
-      t.string :last_name
+      t.string :surname
+      t.string :phone
       t.datetime :announcements_last_read_at
       t.boolean :admin, default: false
 

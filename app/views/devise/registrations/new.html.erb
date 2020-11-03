@@ -6,7 +6,15 @@
       <%= devise_error_messages! %>
 
       <div class="form-group">
-        <%= f.text_field :name, autofocus: true, class: 'form-control', placeholder: "Full Name" %>
+        <%= f.text_field :first_name, autofocus: true, class: 'form-control', placeholder: "First Name" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.text_field :surname, autofocus: true, class: 'form-control', placeholder: "Surname" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.text_field :phone, autofocus: true, class: 'form-control', placeholder: "Phone Number" %>
       </div>
 
       <div class="form-group">
